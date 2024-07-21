@@ -403,8 +403,8 @@ line-height: 1.75rem; /* 140% */
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-     font-family: "Bicyclette-Light", sans-serif;
-
+    font-family: "Bicyclette-Bold", sans-serif;
+    font-style: bold;
     height: 3rem;
     border-radius: 8px;
 
