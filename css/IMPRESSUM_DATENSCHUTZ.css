@@ -193,10 +193,7 @@ header {
 
 .main-header-group {
     background-color: #D2FF1A; 
-    background-image: url(../img/bg-hands@2x.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 
     width: 100%;
     height: 100%;
@@ -238,9 +235,10 @@ header {
 
 .title H1 {
     color: #2D2742;
-    font-family: "GasoekOne-Regular", sans-serif;
+    font-family: "Bicyclette-BOLD", sans-serif;
+    text-transform: uppercase;
     font-size: 38px;
-    font-weight: normal;
+    font-weight:bold;
 
 
     
