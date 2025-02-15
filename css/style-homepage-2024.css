@@ -467,14 +467,18 @@ line-height: 1.75rem; /* 140% */
 .button {
     background-color: #D2FF1A;
     border: none;
-    color: #610095;
-    padding: 12px 44px 12px 44px;
+    
+    color: #2D2742;
+
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-     font-family: "Bicyclette-Bold", sans-serif;
-    width: 90%;
+    font-family: "Bicyclette-Bold", sans-serif;
+    font-style: bold;
+    font-weight: 700;
+width: 90%;
+     height: 3rem;
     border-radius: 8px;
     transition-duration: 0.4s;
 
@@ -671,7 +675,7 @@ footer a img:hover {
 .title H1 {
 
     font-size: 32px;
-    line-height: 20px;
+    line-height: 38px;
 
 
 }
@@ -680,7 +684,7 @@ footer a img:hover {
 .title H2 {
 
     font-size: 20px;  
-    line-height: 16px
+    line-height: 24px
 
 }
 
@@ -688,7 +692,7 @@ footer a img:hover {
 
 
     font-size: 32px;
-    line-height: 20px  
+    line-height: 38px;
 
 }
 
@@ -697,7 +701,7 @@ footer a img:hover {
 
 
     font-size: 32px;  
-    line-height: 20px
+    line-height: 38px;
 
 }
 
