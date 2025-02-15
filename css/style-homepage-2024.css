@@ -671,6 +671,7 @@ footer a img:hover {
 .title H1 {
 
     font-size: 32px;
+    line-height: 20px;
 
 
 }
@@ -679,13 +680,15 @@ footer a img:hover {
 .title H2 {
 
     font-size: 20px;  
+    line-height: 16px
 
 }
 
 .about-text H2 {
 
 
-    font-size: 32px;  
+    font-size: 32px;
+    line-height: 20px  
 
 }
 
@@ -694,6 +697,7 @@ footer a img:hover {
 
 
     font-size: 32px;  
+    line-height: 20px
 
 }
 
