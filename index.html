@@ -9,8 +9,8 @@
 <meta content="logo, identity, web, app design, business, advertising, clothing, merchandise, art, illustration, packaging, label, book, magazine, video, animation, Grafik design, Grafikdesign, Art Director, Bavaria, München, design, graphic designer, munich, graphicdesigner, designer, graphic, brand, print, digital, illustration, price, fast, easy, solution, create, startup, product, ui, ux, passion, inspired, nature" name="keywords"/>
 <meta content="Bruno de Aviz" name="author"/>
 <meta content="all" name="robots"/>
-<meta content="#FFFFFF" name="theme-color">
-<meta content="BRUNODEAVIZ Design Spotlight Newsletter #06" property="og:title"/>
+<meta content="#FFFFFF" name="theme-color"/>
+<meta content="BRUNODEAVIZ Design Spotlight Newsletter #06" property="og:title">
 <meta content="newsletter" property="og:type"/>
 <meta content="https://designspotlight.brunodeaviz.com/" property="og:url"/>
 <meta content="https://b-aviz.github.io/DesignSpotlight/img/thumbnail-00.png" property="og:image"/>
@@ -25,49 +25,8 @@
 <link href="img/ba-touch-ipad-ret.png" rel="apple-touch-icon" sizes="152x152"/>
 <!-- CookieConsent (GDPR Compliant with Privacy Policy Link) -->
 <link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet"/>
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
-<script>
-  window.addEventListener("load", function(){
-    window.cookieconsent.initialise({
-      "palette": {
-        "popup": { "background": "#2D2742" },
-        "button": { "background": "#D2FF1A", "text": "#2D2742" }
-      },
-      "theme": "classic",
-      "showLink": false,
-      "type": "opt-in",
-      "content": {
-        "message": "We use cookies to improve your experience. You can accept or reject optional cookies.",
-        "dismiss": "Reject",
-        "allow": "Accept",
-        "link": "Learn more",
-        "href": "DATENSCHUTZ.html"
-      },
-      onInitialise: function (status) {
-        if (this.hasConsented('statistics')) {
-          loadGA();
-        }
-      },
-      onStatusChange: function(status, chosenBefore) {
-        if (this.hasConsented('statistics')) {
-          loadGA();
-        }
-      }
-    });
 
-    function loadGA() {
-      var script1 = document.createElement('script');
-      script1.async = true;
-      script1.src = 'https://www.googletagmanager.com/gtag/js?id=G-VRYYD5DW9D';
-      document.head.appendChild(script1);
 
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-VRYYD5DW9D');
-    }
-  });
-  </script>
 </meta><style>.cc-revoke { display: none !important; }</style></head>
 <body>
 <div class="top_bar">
@@ -252,6 +211,51 @@ document.addEventListener("DOMContentLoaded", function() {
 
   elements.forEach(el => observer.observe(el));
 });
+</script>
+
+<!-- CookieConsent (GDPR Compliant) -->
+<script defer="" src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+<script defer="">
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": { "background": "#2D2742" },
+        "button": { "background": "#D2FF1A", "text": "#2D2742" }
+      },
+      "theme": "classic",
+      "type": "opt-in",
+      "showLink": false,
+      "content": {
+        "message": "We use cookies to improve your experience. You can accept or reject optional cookies.",
+        "dismiss": "Reject",
+        "allow": "Accept",
+        "link": "Learn more",
+        "href": "DATENSCHUTZ.html"
+      },
+      onInitialise: function (status) {
+        if (this.hasConsented('statistics')) {
+          loadGA();
+        }
+      },
+      onStatusChange: function(status, chosenBefore) {
+        if (this.hasConsented('statistics')) {
+          loadGA();
+        }
+      }
+    });
+
+    function loadGA() {
+      var script1 = document.createElement('script');
+      script1.async = true;
+      script1.src = 'https://www.googletagmanager.com/gtag/js?id=G-VRYYD5DW9D';
+      document.head.appendChild(script1);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-VRYYD5DW9D');
+    }
+  });
 </script>
 </body>
 </html>
