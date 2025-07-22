@@ -766,6 +766,7 @@ footer a img:hover {
   }
 
   .nav-buttons {
+    color:  #2D2742;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -803,4 +804,8 @@ footer a img:hover {
 
   color:  #A600FF;
   transform: scale(1.05);
+}
+
+.nav-button:visited {
+  color: #2D2742; /* Ensures consistency after click */
 }
