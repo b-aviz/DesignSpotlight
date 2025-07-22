@@ -800,12 +800,12 @@ footer a img:hover {
   }
 
 
-.nav-button:hover {
-
-  color:  #A600FF;
-  transform: scale(1.05);
+.nav-button:visited {
+  color: #2D2742; /* force same color for visited links */
 }
 
-.nav-button:visited {
-  color: #2D2742; /* Ensures consistency after click */
+.nav-button:hover,
+.nav-button:hover:visited {
+  color: #A600FF; /* pink hover */
+  transform: scale(1.05);
 }
