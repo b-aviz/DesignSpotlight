@@ -727,12 +727,12 @@ footer a img:hover {
   .title H1,
   .newsletter-text H2,
   .about-text H2 {
-    font-size: 2rem;  /* 32px */
+    font-size: 1.5rem;  /* 24px */
     line-height: 2.375rem; /* 38px */
   }
 
   .title H2 {
-    font-size: 1.25rem; /* 20px */
+    font-size: 1rem; /* 20px */
     line-height: 1.5rem; /* 24px */
   }
 
