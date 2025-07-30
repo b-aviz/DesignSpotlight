@@ -127,15 +127,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between; 
+    padding: 8px;
 }
 
 .logo {
-   
+
     display: flex;
     align-items: center;
-    width: 100%;
+
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
     
 }
 
@@ -148,10 +149,9 @@ header {
 }
 
 .logo img {
-
+    width: 68px;
     border: none;
     border: 0px;
-    width: 32px;
 
 }
 
