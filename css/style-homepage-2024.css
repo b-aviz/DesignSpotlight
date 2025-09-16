@@ -814,3 +814,26 @@ footer a img:hover {
   color: #A600FF; /* pink hover */
   transform: scale(1.05);
 }
+
+
+/* 1) Don’t force min widths that exceed small phones */
+.content,
+.nav-buttons { min-width: 0; }
+
+/* 2) Default sections shouldn’t be flex rows site-wide */
+section { display: block; }
+/* ...or, if you need flex, make it mobile-safe: */
+@media (max-width: 768px) {
+  section { display: flex; flex-direction: column; flex-wrap: nowrap; }
+}
+
+/* 3) Tame the big right margin on tiny screens */
+@media (max-width: 480px) {
+  .second-button { margin-right: 0; }
+}
+
+/* (Optional) belt-and-suspenders to hide any residual 1–2px overflow */
+html, body { overflow-x: hidden; }
+
+/* Helpful globally */
+*, *::before, *::after { box-sizing: border-box; }
